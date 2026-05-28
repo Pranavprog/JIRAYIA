@@ -1,1 +1,210 @@
+JIRAYIA – AI-Powered Autonomous Healthcare Assistant
+<div align="center">
+Revolutionizing Hospital Care Through Robotics, AI, and Intelligent Automation
 
+An AI-integrated robotic assistant designed to support healthcare professionals by automating routine hospital tasks, improving patient care, and reducing staff workload.
+
+</div>
+📌 Overview
+
+JIRAYIA is a smart healthcare robotic assistant developed to address challenges faced by modern hospitals, including staff shortages, patient overcrowding, delayed monitoring, and repetitive manual tasks. The system combines Artificial Intelligence (AI), Machine Learning (ML), IoT sensors, and Cyber-Physical Systems to create an autonomous robot capable of assisting healthcare workers in real-time.
+
+Designed using Arduino, Mixly, Bluetooth communication, and sensor-based navigation, JIRAYIA can perform essential tasks such as:
+
+🌡️ Contactless patient temperature monitoring
+🚑 Autonomous hospital navigation
+💊 Medicine and document delivery
+🚧 Obstacle detection and avoidance
+📊 Real-time patient data logging
+📱 Manual control via mobile application
+
+The goal of JIRAYIA is not to replace healthcare professionals but to augment their capabilities, allowing them to focus on critical patient care while the robot handles repetitive operational tasks.
+
+🎯 Problem Statement
+
+Healthcare facilities worldwide face increasing pressure due to:
+
+Shortage of doctors and nursing staff
+High patient-to-caregiver ratio
+Delayed patient monitoring
+Increased risk of infection during physical interactions
+Staff burnout due to repetitive non-clinical activities
+
+According to WHO reports, healthcare worker shortages remain a major challenge in developing nations. Routine tasks consume significant time that could otherwise be spent on critical patient care.
+
+JIRAYIA aims to bridge this gap through intelligent automation.
+
+💡 Proposed Solution
+
+JIRAYIA is an autonomous robotic platform capable of:
+
+Navigating hospital corridors using line-following technology.
+Detecting and avoiding obstacles in real time.
+Monitoring patient temperature using contactless sensors.
+Making intelligent decisions using AI/ML algorithms.
+Logging data to cloud platforms for monitoring and analysis.
+Operating in both autonomous and manual modes.
+🚀 Key Features
+🌡️ Contactless Health Monitoring
+MLX90614 Infrared Temperature Sensor
+Accurate non-contact temperature measurement
+Reduces infection transmission risks
+🚧 Obstacle Avoidance
+Ultrasonic sensor-based detection
+Real-time collision prevention
+Safe hospital navigation
+🛣️ Autonomous Navigation
+IR-based line-following system
+Hospital route tracking
+Efficient movement between wards
+📱 Bluetooth Manual Control
+Mobile application interface
+Manual override functionality
+Emergency control capability
+🧠 AI-Powered Decision Making
+Random Forest Algorithm
+Lightweight Neural Network (MLP)
+Context-aware task prediction
+☁️ Cloud Integration
+Firebase database integration
+Real-time data storage
+Remote monitoring capabilities
+🤖 AI & Machine Learning Integration
+
+JIRAYIA incorporates intelligent decision-making using:
+
+Random Forest Classifier
+
+Used for:
+
+Task prioritization
+Patient monitoring decisions
+Context-based action selection
+Lightweight Neural Network (MLP)
+
+Used for:
+
+Route optimization
+Adaptive behavior learning
+Future scalability for voice and gesture recognition
+Contextual Inputs
+Time of day
+Room location
+Patient status
+Previous robot actions
+🏗️ System Architecture
+                +----------------+
+                |  Mobile App    |
+                +--------+-------+
+                         |
+                         v
++------------------------------------------------+
+|                  JIRAYIA ROBOT                 |
++------------------------------------------------+
+| Arduino / ESP32 Controller                     |
+|                                                |
+|  +-----------+    +----------------------+     |
+|  | MLX90614  |    | Ultrasonic Sensor    |     |
+|  +-----------+    +----------------------+     |
+|                                                |
+|  +-----------+    +----------------------+     |
+|  | IR Sensor |    | Bluetooth Module     |     |
+|  +-----------+    +----------------------+     |
+|                                                |
+|  +-----------+    +----------------------+     |
+|  | AI Engine |    | Firebase Cloud Sync  |     |
+|  +-----------+    +----------------------+     |
++------------------------------------------------+
+⚙️ Hardware Components
+Component	Purpose
+Arduino Uno R3	Main Controller
+MLX90614 Sensor	Contactless Temperature Monitoring
+Ultrasonic Sensor	Obstacle Detection
+IR Sensors	Line Following
+Bluetooth Module HC-05	Wireless Control
+L293D Motor Driver	Motor Control
+BO Motors	Robot Mobility
+Robotic Arm	Lightweight Item Handling
+Li-ion Battery	Portable Power Supply
+📈 Experimental Results
+Line Following Performance
+Surface Type	Success Rate
+White Tile Floor	95%
+Low-Light Conditions	92%
+Glossy Laminated Surface	70%
+Obstacle Detection
+Distance	Accuracy
+50–200 cm	100%
+<30 cm	95%
+Temperature Accuracy
+Parameter	Result
+Expected Accuracy	±0.5°C
+Observed Accuracy	±0.6°C
+Other Metrics
+Parameter	Observed Value
+Bluetooth Latency	0.9 sec
+Motor Response Time	1.5 sec
+Battery Life	2.8 hrs
+Arm Accuracy	±2.5 mm
+🌟 Unique Selling Proposition (USP)
+Affordable healthcare robotics solution
+AI-powered autonomous decision-making
+Hybrid manual + autonomous operation
+Cloud-connected smart monitoring
+Modular and scalable architecture
+Designed specifically for Indian healthcare environments
+Suitable for rural and urban hospitals
+🎯 Target Market
+Primary Customers
+Government Hospitals
+Primary Health Centers (PHCs)
+Private Clinics
+Nursing Homes
+Elder Care Facilities
+Secondary Customers
+Medical Colleges
+Research Institutions
+Healthcare Innovation Centers
+💰 Business Model
+Revenue Streams
+Hardware Sales
+Robot Unit Sales
+Software Subscription
+Cloud Dashboard Access
+Data Analytics
+Maintenance Contracts
+Annual Maintenance Services
+Firmware Updates
+Custom Add-ons
+Advanced Sensors
+AI Upgrades
+Telemedicine Integration
+📊 Technology Readiness
+Level	Status
+TRL	Level 5
+MRL	Level 3
+IRL	Level 4
+🌍 Sustainability Impact
+
+JIRAYIA contributes to:
+
+SDG 3 – Good Health and Well-being
+Reduced healthcare worker burnout
+Efficient resource utilization
+Lower infection risks
+Sustainable healthcare automation
+🔮 Future Enhancements
+Voice Assistant Integration
+Gesture Recognition
+Facial Recognition
+Medicine Dispensing Module
+Telemedicine Connectivity
+Digital Twin Simulation
+Multi-Robot Coordination
+👨‍💻 Developer
+
+Pranav Kumar
+Vidyavardhaka College of Engineering (VVCE)
+Mysuru, Karnataka, India
+
+📧 Email: pranavkumar9535@gmail.com
